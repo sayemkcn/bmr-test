@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        SMR.setUser(this,"Test Name");
+
         Button btnVeryLow = findViewById(R.id.btnVeryLow);
         Button btnLow = findViewById(R.id.btnLow);
         Button btnNormal = findViewById(R.id.btnNormal);
